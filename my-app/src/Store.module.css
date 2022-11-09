@@ -1,0 +1,27 @@
+
+.stores>.store{
+    width: 90%;
+    height: auto;
+    display: flex;
+    /* background-color: red; */
+    /* border: 1px solid red; */
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    margin: auto;
+}
+.store>div{
+    grid-template-columns: repeat(3,1fr);
+    border: 1px solid red;
+    gap: 40px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+.stor{
+    width: 90%;
+    background-color: rgb(190, 176, 176);
+    margin: auto;
+
+}
+img{
+    margin-top: 30px;
+}
