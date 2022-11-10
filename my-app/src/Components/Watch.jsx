@@ -1,6 +1,7 @@
 import React from "react";
 import {Text, Image, Box,Stack,Heading, Tag, TagLabel} from '@chakra-ui/react'
 
+
 const Watch = ({url, title,price,mrp,save}) => {
  
   return (

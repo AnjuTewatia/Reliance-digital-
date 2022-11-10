@@ -25,6 +25,7 @@ const Watchs = () => {
 
   return (
     <>
+    <div className="watch">
     <h1 style={{marginRight:"50%"}}>SMARTWATCHES STARTING FROM 999</h1>
 
       <Flex>
@@ -48,7 +49,7 @@ const Watchs = () => {
         )
             }
       </Flex>
-     
+      </div>
     </>
 
 
