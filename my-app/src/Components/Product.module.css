@@ -1,1 +1,17 @@
 
+
+.product{
+    width: 18%;
+    height: 370px;
+    gap:20px;
+    /* border: 1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* background-color: brown; */
+    margin-bottom: 40px;
+}
+.product:hover{
+    cursor: pointer;
+}
+url{
+    height: 40%;
+}
