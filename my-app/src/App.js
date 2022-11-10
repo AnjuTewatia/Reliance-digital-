@@ -7,8 +7,10 @@ import { Route,Routes } from 'react-router-dom';
 import Footer from './Footer/Footer';
 import Navbar from './Components/Navbar/Navbar';
 import Store from './Store';
-import Product from './Components/Product';
+import Watchs from "./Components/Watchs"
+// import Product from './Components/Product';
 import DigitalAudio from './Components/DigitalAudio/DigitalAudio';
+
 // import Store from './Store'
 function App() {
   return (
@@ -26,8 +28,12 @@ function App() {
         <Route path='/Login' element={<h1>Cart</h1>} />
 
       </Routes>
+      <hr/>
 
+
+      <Watchs/>
       <Footer />
+     
        
     </div>
   );
