@@ -1,0 +1,23 @@
+.navbar{
+
+    width: 90%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.navbar div:last-child{
+    max-width: 40%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap:50px;
+    
+}
+.navbarr{
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
