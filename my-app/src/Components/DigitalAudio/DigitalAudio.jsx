@@ -1,6 +1,7 @@
 import React from 'react'
 import { data } from '../../data'
 import Product from '../Product'
+// import styles from "./"
 
 const DigitalAudio = () => {
     console.log("from digital audio",data);
