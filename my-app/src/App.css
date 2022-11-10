@@ -1,6 +1,11 @@
 .App {
   text-align: center;
 }
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
 .App-logo {
   height: 40vmin;
@@ -66,4 +71,12 @@ a{
 }
 img:hover{
   cursor: pointer;
+}
+
+.digital{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+
 }

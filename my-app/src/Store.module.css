@@ -1,6 +1,6 @@
 
 .stores>.store{
-    width: 90%;
+    width: 75%;
     height: auto;
     display: flex;
     /* background-color: red; */
@@ -8,18 +8,21 @@
     grid-template-columns: repeat(3,1fr);
     gap: 30px;
     margin: auto;
+    margin-bottom: 50px;
 }
 .store>div{
     grid-template-columns: repeat(3,1fr);
-    border: 1px solid red;
+    /* border: 1px solid red; */
     gap: 40px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
 }
 .stor{
     width: 90%;
-    background-color: rgb(190, 176, 176);
+    height: 210px;
+    background-color: rgb(245, 235, 235);
     margin: auto;
+    margin-bottom: 50px;
 
 }
 img{

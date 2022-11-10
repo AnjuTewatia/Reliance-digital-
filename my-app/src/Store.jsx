@@ -8,7 +8,7 @@ const Store = () => {
     <div className={styles.stores}>
 
     <div className={styles.stor}>
-       <h1>Reliance Digital Store & Service Center near you</h1> 
+       <h1 style={{color:"blue"}}>Reliance Digital Store & Service Center near you</h1> 
 <Stack spacing={3} style={{marginLeft:"40%"}}>
   <Input placeholder='Enter Pincode/Town' size='xs' style={{width:"250px"}} />
  

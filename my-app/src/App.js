@@ -7,12 +7,16 @@ import { Route,Routes } from 'react-router-dom';
 import Footer from './Footer/Footer';
 import Navbar from './Components/Navbar/Navbar';
 import Store from './Store';
+import Product from './Components/Product';
+import DigitalAudio from './Components/DigitalAudio/DigitalAudio';
 // import Store from './Store'
 function App() {
   return (
     <div className="App">
 
       <Navbar/>
+      {/* <Product /> */}
+      <DigitalAudio />
       <Routes>
         <Route path='/Store' element={<Store/>} />
         <Route path='/Guide' element={<h1>Cart</h1>} />
