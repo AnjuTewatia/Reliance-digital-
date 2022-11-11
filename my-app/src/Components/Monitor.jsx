@@ -1,7 +1,7 @@
 import React from "react";
 import {Text, Image, Box,Stack,Heading, Tag, TagLabel} from '@chakra-ui/react'
-import "./Watch.css"
-const Watch = ({url, title,price,mrp,save}) => {
+// import "./Watch.css"
+const Monitor = ({url, title,price,mrp,save}) => {
  
   return (
     <div className="watch">
@@ -29,4 +29,4 @@ const Watch = ({url, title,price,mrp,save}) => {
   );
 };
 
-export default Watch;
+export default Monitor;

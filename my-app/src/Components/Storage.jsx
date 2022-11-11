@@ -1,7 +1,9 @@
+
+
 import React from "react";
 import {Text, Image, Box,Stack,Heading, Tag, TagLabel} from '@chakra-ui/react'
-import "./Watch.css"
-const Watch = ({url, title,price,mrp,save}) => {
+// import "./Watch.css"
+const Storage = ({url, title,price,mrp,save}) => {
  
   return (
     <div className="watch">
@@ -18,7 +20,7 @@ const Watch = ({url, title,price,mrp,save}) => {
       <Image data-cy="watch-image" src={url} style={{height:"180px"}} />
       <Text data-cy="watch-title" style={{color:"blue" }}> {title}</Text>
       <Tag>
-        <TagLabel data-cy="watch-price"> Deal price: ₹ {price}</TagLabel>
+        <TagLabel data-cy="watch-price" style={{marginLeft:"10px"}}> Deal price: ₹ {price}</TagLabel>
       </Tag>
       <Heading data-cy="watch-mrp"> M.R.P:₹ {mrp}</Heading>
       <Box data-cy="watch-save"> you Save:₹ {save}</Box>
@@ -29,4 +31,4 @@ const Watch = ({url, title,price,mrp,save}) => {
   );
 };
 
-export default Watch;
+export default Storage;

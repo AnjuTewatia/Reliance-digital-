@@ -1,13 +1,14 @@
+
 import React from "react";
 import {Text, Image, Box,Stack,Heading, Tag, TagLabel} from '@chakra-ui/react'
-import "./Watch.css"
-const Watch = ({url, title,price,mrp,save}) => {
+// import "./Watch.css"
+const Kodak = ({url, title,mrp}) => {
  
   return (
     <div className="watch">
    
     <div style={{ width:"90%",
-    height:"430px",
+    height:"370px",
    
     display:"fles",
     gridTemplatecolumns:"repeat(3,1fr)",
@@ -18,10 +19,8 @@ const Watch = ({url, title,price,mrp,save}) => {
       <Image data-cy="watch-image" src={url} style={{height:"180px"}} />
       <Text data-cy="watch-title" style={{color:"blue" }}> {title}</Text>
       <Tag>
-        <TagLabel data-cy="watch-price"> Deal price: ₹ {price}</TagLabel>
       </Tag>
       <Heading data-cy="watch-mrp"> M.R.P:₹ {mrp}</Heading>
-      <Box data-cy="watch-save"> you Save:₹ {save}</Box>
     </Stack>
     <button>anju tewatia</button>
     </div>
@@ -29,4 +28,4 @@ const Watch = ({url, title,price,mrp,save}) => {
   );
 };
 
-export default Watch;
+export default Kodak;

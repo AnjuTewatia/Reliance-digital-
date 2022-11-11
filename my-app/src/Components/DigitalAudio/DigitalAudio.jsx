@@ -6,7 +6,7 @@ import Product from '../Product'
 const DigitalAudio = () => {
     console.log("from digital audio",data);
   return (
-    <div>
+    <div style={{width:"100%"}}>
         <h1>Digital Audio </h1>
         <div className='digital'>
 

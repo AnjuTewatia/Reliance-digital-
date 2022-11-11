@@ -1,18 +1,20 @@
 
+
+
 import React, { useState } from "react";
 import { Flex, Grid } from '@chakra-ui/react'
 import axios from 'axios'
 import { useEffect } from "react";
-import Watch from './Watch'
-import "./Watch.css"
+import Iphone from './Iphone'
+
 
 
 
 const getData = (page) => {
-  return axios.get(`https://anjuserver.onrender.com/watch`)
+  return axios.get(`https://ossified-cut-fact.glitch.me/iphones`)
 }
 
-const Watchs = () => {
+const Iphones = () => {
   const [arr, setArr] = React.useState([])
   const [page, setPage] = useState(1)
 
@@ -25,10 +27,10 @@ const Watchs = () => {
 
   return (
     <>
-    <h1 style={{marginRight:"50%"}}>  SMARTWATCHES STARTING FROM 999</h1>
+    <h1 style={{marginRight:"50%"}}> APPLE IPHONE 14 & 14 PLUS</h1>
 
       <Flex>
-          <img style={{marginRight:"20px",marginBottom:"20px"}} src="https://www.reliancedigital.in/medias/Smartwatches-Producst-Carousel-27-10-2022-02.jpg?context=bWFzdGVyfGltYWdlc3wxMDA3NTB8aW1hZ2UvanBlZ3xpbWFnZXMvaGViL2gxYS85OTEzNzc2Nzk5Nzc0LmpwZ3w0YzI5OWYwMDI2YzYzMGJiZmRhZGRhZGQyNWIwNTc1OGVmZDRlZmY2NmYzN2E4ZDdkZjMxMzRkM2QxMGYzNmQy" />
+          <img style={{marginRight:"20px",marginBottom:"20px",height:"300px",width:"350px"}} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvuRdEqaXsus1L8F9Ngc1QFY43alGlQwDjsQ&usqp=CAU" />
         {
           arr.map((ele,index) =>{
 
@@ -36,12 +38,10 @@ const Watchs = () => {
                   return(
 
                       <Grid>
-              <Watch key={ele.id} 
+              <Iphone key={ele.id} 
               url={ele.url} 
               title={ele.title}
               price={ele.price}
-              mrp={ele.mrp} 
-              save={ele.save}  
               />
              
               </Grid>
@@ -59,4 +59,4 @@ const Watchs = () => {
   );
 };
 
-export default Watchs;
+export default Iphones;
