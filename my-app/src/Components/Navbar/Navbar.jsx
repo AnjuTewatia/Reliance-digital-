@@ -6,8 +6,13 @@ import logo from "../../Images/logo.png"
 
 const  Navbar = () => {
   return(
-    <div className='navbar'>
-<div><img src={logo} alt='logo' /></div>
+    <div className='navbar' style={{position:"fixed"}}>
+<div>
+  <NavLink to="/">
+
+  <img  style={{width:"30%"}}src={logo} alt='logo' />
+  </NavLink>
+  </div>
 <Stack spacing={3}>
   <Input placeholder='Find your favorite products' size='xs' style={{margin:"40px",width:"250px"}} />
  
@@ -20,7 +25,10 @@ const  Navbar = () => {
     <NavLink to='/Cart'>Cart</NavLink>
     <NavLink to='/Login'>Login</NavLink>
 </div>
-    </div>
+
+</div>
+
+  
   )
 }
 

@@ -22,7 +22,7 @@ const Led = ({url, title,price,mrp,save}) => {
       <Tag>
         <TagLabel data-cy="watch-price"> Deal price: ₹ {price}</TagLabel>
       </Tag>
-      <Heading data-cy="watch-mrp"> M.R.P:₹ {mrp}</Heading>
+      <Heading data-cy="watch-mrp" style={{  verticlAlign: "middle"}}> M.R.P:₹ {mrp}</Heading>
       <Box data-cy="watch-save"> you Save:₹ {save}</Box>
     </Stack>
     <button>Add To Cart</button>
