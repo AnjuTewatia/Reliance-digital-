@@ -22,7 +22,6 @@ const  Navbar = () => {
     <NavLink to='/Guide'>Buying Guides</NavLink>
     <NavLink to='/Contact'>Contact Us</NavLink>
     <NavLink to='/Pin'>Select Your PIN Code</NavLink>
-    <NavLink to='/Cart'>Cart</NavLink>
     <NavLink to='/Login'>Login</NavLink>
 </div>
 

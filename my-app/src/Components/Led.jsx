@@ -25,7 +25,7 @@ const Led = ({url, title,price,mrp,save}) => {
       <Heading data-cy="watch-mrp" style={{  verticlAlign: "middle"}}> M.R.P:₹ {mrp}</Heading>
       <Box data-cy="watch-save"> you Save:₹ {save}</Box>
     </Stack>
-    <button>Add To Cart</button>
+    <button>Offer Available</button>
     </div>
     </div>
   );

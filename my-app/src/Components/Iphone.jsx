@@ -19,7 +19,7 @@ const Iphone = ({url, title,price}) => {
         <TagLabel data-cy="iphone-price"> Deal price: ₹ {price}</TagLabel>
       </Tag>
     </Stack>
-    <button>anju tewatia</button>
+    <button>Offer Avaulable</button>
     </div>
     </div>
   );

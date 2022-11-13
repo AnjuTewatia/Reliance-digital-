@@ -32,7 +32,13 @@ const navigate=useNavigate();
          type="number" placeholder="Enter Your mobile number"/>
         </lable>
         {/* <NavLink to="/"> */}
-        <button data-testid="form-submit" type="submit">Procced</button>
+        <button data-testid="form-submit" type="submit">
+          <NavLink to='/'>
+
+          Procced
+          </NavLink>
+          
+          </button>
         {/* </NavLink> */}
         </div>
       </form>

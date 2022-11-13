@@ -22,7 +22,7 @@ const Kodak = ({url, title,mrp}) => {
       </Tag>
       <Heading data-cy="watch-mrp"> M.R.P:₹ {mrp}</Heading>
     </Stack>
-    <button>anju tewatia</button>
+    <button>Offer Available</button>
     </div>
     </div>
   );
