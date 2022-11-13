@@ -23,7 +23,7 @@ function Login() {
     }
   };
   return (
-    <div className="login-page" style={{width:"40%",height:"350px" ,margin:"auto",margin:"100px 0px 50px 400px",gap:"50px",boxShadow:" rgba(0, 0, 0, 0.24) 0px 3px 8px"}}>
+    <div className="login-page" style={{width:"40%",height:"350px" ,margin:"auto",margin:"70px 0px 50px 400px",gap:"50px",boxShadow:" rgba(0, 0, 0, 0.24) 0px 3px 8px"}}>
       <form onSubmit={handleSubmit} className="form" data-testid="login-form" style={{gap:"50px"}}>
        
         <div style={{width:"90%",heigth:"850px",margin:"auto"}}> 

@@ -1,15 +1,7 @@
 
-
-
-
 import React from 'react'
 import { useState } from 'react'
 import { Link, useNavigate } from "react-router-dom";
-
-
-
-
-
 
 
 const Pin = () => {
@@ -24,18 +16,15 @@ const navigate=useNavigate();
     setLoading(true)
     alert("login successfull")
 
-
-
-
   }
 
 
   return (
     <div>
-      <form action="" style={{width:"400px",height:"100px",margin:"150px 0px 50px 500px",boxShadow: "rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px"}}>
+      <form action="" style={{width:"400px",height:"100px",margin:"50px 0px 50px 500px",boxShadow: "rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px"}}>
        <div>
         <lable >
-        <h2 style={{backgroundColor:"blue",marginBottom:"30px" }} >Enter PInConde</h2>
+        <h2 style={{backgroundColor:"blue",marginBottom:"30px" }} >Enter PinConde</h2>
         <input  
         value={pin} 
         onChange={(e) => setPin(e.target.value)}
