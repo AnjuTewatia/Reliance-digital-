@@ -23,7 +23,7 @@ const Watch = ({url, title,price,mrp,save}) => {
       <Heading data-cy="watch-mrp"> M.R.P:₹ {mrp}</Heading>
       <Box data-cy="watch-save"> you Save:₹ {save}</Box>
     </Stack>
-    <button>anju tewatia</button>
+    <button>Offer Available</button>
     </div>
     </div>
   );
