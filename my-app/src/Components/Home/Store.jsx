@@ -5,7 +5,7 @@ import styles from "./Store.module.css"
 
 const Store = () => {
   return (
-    <div className={styles.stores} style={{ margin:"100px "  }}>
+    <div className={styles.stores} style={{ margin:"70px "  }}>
 
     <div className={styles.stor}>
        <h1 style={{color:"blue"}}>Reliance Digital Store & Service Center near you</h1> 

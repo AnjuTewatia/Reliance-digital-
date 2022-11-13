@@ -14,7 +14,7 @@ const  Navbar = () => {
   </NavLink>
   </div>
 <Stack spacing={3}>
-  <Input placeholder='Find your favorite products' size='xs' style={{margin:"40px",width:"250px"}} />
+  <Input placeholder='Find your favorite products' size='xs' style={{margin:"40px",width:"350px"}} />
  
 </Stack>
 <div className='navbarr'>

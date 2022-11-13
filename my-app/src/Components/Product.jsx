@@ -2,9 +2,11 @@ import React from "react";
 import styles from "./Product.module.css";
 
 const Product = ({ items }) => {
+
   console.log("product page", items);
   const { id, url, price, title, save } = items;
   return (
+    
     <div key={id} className={styles.product}>
       <div >
         <img  style={{height:"200px"}}src={url} alt="product image" />

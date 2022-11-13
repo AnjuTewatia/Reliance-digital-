@@ -10,7 +10,7 @@ import "./Watch.css"
 
 
 const getData = (page) => {
-  return axios.get(`https://anjuserver.onrender.com/leds`)
+  return axios.get(`https://anju.onrender.com/leds`)
 }
 
 const Leds = () => {

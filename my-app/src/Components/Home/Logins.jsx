@@ -2,13 +2,7 @@
 
 import React from 'react'
 import { useState } from 'react'
-import { Link, useNavigate } from "react-router-dom";
-
-
-
-
-
-
+import { Link, useNavigate ,NavLink} from "react-router-dom";
 
 const Logins = () => {
 
@@ -21,8 +15,6 @@ const navigate=useNavigate();
     e.preventDefault();
     setLoading(true)
     alert("login successfull")
-
-
 
 
   }
@@ -39,7 +31,9 @@ const navigate=useNavigate();
         onChange={(e) => setPin(e.target.value)}
          type="number" placeholder="Enter Your mobile number"/>
         </lable>
+        {/* <NavLink to="/"> */}
         <button data-testid="form-submit" type="submit">Procced</button>
+        {/* </NavLink> */}
         </div>
       </form>
     </div>
